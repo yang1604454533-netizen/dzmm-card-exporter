@@ -1,0 +1,25 @@
+# 运行期生成物（含你的登录态和路径，绝对不要提交）
+config.json
+webview_data/
+exported/
+*.log
+预览.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 导出的卡 / 临时文件
+*.png
+!预览.png
+_*.py
+_*/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+# 必需：GUI 窗口（Windows 走 WebView2，macOS 走系统 WebKit，Linux 走 GTK/Qt）
+pywebview>=4.4
+
+# 可选：只有当站点封面不再是 PNG、需要转格式时才需要
+# python -m pip install Pillow
